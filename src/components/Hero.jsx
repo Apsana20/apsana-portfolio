@@ -19,11 +19,15 @@ function Hero() {
           projects and continuous learning.
         </p>
 
+        
         <div className="buttons">
-          <button className="resume-btn">
-            Download Resume
-          </button>
-
+  <a
+    href="/apsana s a resume.pdf"
+    download
+    className="resume-btn"
+  >
+    Download Resume
+  </a>
           <button className="outline-btn">
             View Projects
           </button>
