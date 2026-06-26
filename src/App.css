@@ -509,6 +509,11 @@ background:#6245ff;
     flex-wrap:wrap;
     height:auto;
   }
+  .menu-icon{
+  display:none;
+  font-size:30px;
+  cursor:pointer;
+  }
 
   .logo{
     font-size:24px;
@@ -570,5 +575,66 @@ background:#6245ff;
     height:100%;
     object-fit:cover;
   }
+
+}
+/* ================= MOBILE ================= */
+
+@media(max-width:768px){
+
+.navbar{
+    padding:15px 20px;
+}
+
+.menu-icon{
+    display:block;
+}
+
+.resume-btn{
+    display:none;
+}
+
+.nav-links{
+    display:none;
+    position:absolute;
+    top:70px;
+    left:0;
+    width:100%;
+    background:white;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    padding:25px 0;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.nav-links.active{
+    display:flex;
+}
+
+.hero{
+    flex-direction:column-reverse;
+    text-align:center;
+    padding:120px 25px 50px;
+}
+
+.left,
+.right{
+    width:100%;
+}
+
+.profile-circle{
+    width:250px;
+    height:250px;
+}
+
+.buttons{
+    flex-direction:column;
+    gap:15px;
+}
+
+.project-grid,
+.skills-grid{
+    grid-template-columns:1fr;
+}
 
 }
