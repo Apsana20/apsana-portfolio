@@ -1,30 +1,30 @@
 function Projects() {
-  const projects = [
-    {
-      title: "🌾 AgriAssist AI",
-      description:
-        "AI-powered smart agriculture platform with Crop Recommendation, Disease Detection, Fertilizer Recommendation and Yield Prediction.",
-      tech: "Python • Django • Machine Learning • SQLite",
-      github: "https://github.com/Apsana20",
-      demo: "#"
-    },
-    {
-      title: "📄 AI Resume Analyzer",
-      description:
-        "Resume analyzer that extracts skills, compares resumes with job descriptions and provides smart recommendations.",
-      tech: "Python • Flask • SQLite • NLP",
-      github: "https://github.com/Apsana20",
-      demo: "#"
-    },
-    {
-      title: "💰 Expense Tracker",
-      description:
-        "Personal finance application to manage income, expenses and visualize spending with interactive dashboards.",
-      tech: "React • JavaScript • Node.js",
-      github: "https://github.com/Apsana20",
-      demo: "#"
-    }
-  ];
+ const projects = [
+  {
+    title: "🌾 AgriAssist AI",
+    description:
+      "AI-powered smart agriculture platform with Crop Recommendation, Disease Detection, Fertilizer Recommendation and Yield Prediction.",
+    tech: "Python • Django • Machine Learning • SQLite",
+    github: "https://github.com/Apsana20/AgriAssist-AI",
+    demo:"https://agriassist-ai-eza0.onrender.com"
+  },
+  {
+    title: "📄 AI Resume Analyzer",
+    description:
+      "Resume analyzer that extracts skills, compares resumes with job descriptions and provides smart recommendations.",
+    tech: "Python • Flask • SQLite • NLP",
+    github: "https://github.com/Apsana20/Ai_Resume_Analyzer_v2",
+    demo:"https://ai-resume-analyzer-v2-1.onrender.com"
+  },
+  {
+    title: "💰 Expense Tracker",
+    description:
+      "Personal finance application to manage income, expenses and visualize spending with interactive dashboards.",
+    tech: "React • JavaScript • Node.js",
+    github: "https://github.com/Apsana20/Expense-Trackor",
+    demo: "#"
+  }
+];
 
   return (
     <section className="section" id="projects">
@@ -58,9 +58,13 @@ function Projects() {
                 GitHub
               </a>
 
-              <a href={project.demo}>
-                Live Demo
-              </a>
+             <a
+  href={project.demo}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Live Demo
+</a>
 
             </div>
 
