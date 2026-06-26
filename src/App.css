@@ -451,3 +451,124 @@ font-weight:600;
 .certificate-card a:hover{
 background:#6245ff;
 }
+/* ===========================
+   Mobile Responsive
+=========================== */
+
+@media screen and (max-width: 768px) {
+
+  .hero{
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero-content,
+  .hero-image{
+    width:100%;
+  }
+
+  .project-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+  }
+
+  .skills-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+  }
+
+  .buttons{
+    flex-direction:column;
+    width:100%;
+  }
+
+  .buttons a,
+  .buttons button{
+    width:100%;
+  }
+
+  img{
+    max-width:100%;
+    height:auto;
+  }
+
+  .section{
+    padding:60px 20px;
+  }
+
+}
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width:768px){
+
+  .navbar{
+    padding:15px 20px;
+    flex-wrap:wrap;
+    height:auto;
+  }
+
+  .logo{
+    font-size:24px;
+  }
+
+  .nav-links{
+    width:100%;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-top:15px;
+  }
+
+  .nav-links a{
+    font-size:14px;
+  }
+
+  .resume-btn{
+    display:none;
+  }
+
+  .hero{
+    flex-direction:column-reverse;
+    text-align:center;
+    padding:120px 20px 40px;
+  }
+
+  .left,
+  .right{
+    width:100%;
+  }
+
+  .hero h1{
+    font-size:42px;
+  }
+
+  .hero h2{
+    font-size:28px;
+  }
+
+  .description{
+    font-size:16px;
+    line-height:1.7;
+  }
+
+  .buttons{
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  .profile-circle{
+    width:260px;
+    height:260px;
+    margin:0 auto 30px;
+  }
+
+  .profile{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
+}
