@@ -14,7 +14,7 @@ function Projects() {
       "Resume analyzer that extracts skills, compares resumes with job descriptions and provides smart recommendations.",
     tech: "Python • Flask • SQLite • NLP",
     github: "https://github.com/Apsana20/Ai_Resume_Analyzer_v2",
-    demo:"https://ai-resume-analyzer-v2-1.onrender.com"
+    demo:"https://ai-resume-analizer-v2-1.onrender.com"
   },
   {
     title: "💰 Expense Tracker",
@@ -58,10 +58,11 @@ function Projects() {
                 GitHub
               </a>
 
-             <a
+            <a
   href={project.demo}
   target="_blank"
   rel="noopener noreferrer"
+  onClick={(e) => e.stopPropagation()}
 >
   Live Demo
 </a>
