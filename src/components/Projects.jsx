@@ -22,7 +22,7 @@ function Projects() {
       "Personal finance application to manage income, expenses and visualize spending with interactive dashboards.",
     tech: "React • JavaScript • Node.js",
     github: "https://github.com/Apsana20/Expense-Trackor",
-    demo: "#"
+    demo: "https://expense-trackor-2-pb0u.onrender.com"
   }
 ];
 
